@@ -1,0 +1,89 @@
+#border {
+	border-left: 60px;
+	border-color: red;
+}
+
+#photo {
+	max-width: 100%;
+	max-height: 90%;
+}
+
+h1 {
+	color: rgb(0,0,255);
+	font-family: cursive;
+	border-bottom: double;
+	border-width: 20px;
+	border-color: rgb(255,140,0);
+}
+body {
+	background: rgb(0, 153, 204);
+}
+
+
+form {
+	padding-bottom: 2%;
+	border: groove;
+	border-color: gray;
+}
+
+#list {
+	background-color: rgb(153,204,255);
+	padding-bottom: 2%;
+	border: groove;
+	border-color: gray;
+}
+
+.body {
+	margin: 10%;
+}
+
+#linky {
+	border: groove;
+	border-style: solid;
+	border-color: rgb(204, 51, 0);
+	background-color: rgb(255, 102, 0)
+}
+
+#closing-p {
+	text-align: center;
+}
+
+.success {
+	background-image: url(http://www.photosforclass.com/download/5578514072);
+	max-width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#p {
+	color: yellow;
+	position: static;
+	font-size: 40px;
+}
+
+#a1 {
+	color: red;
+	margin-top: 20%
+}
+
+#a2 {
+	color: red;
+	display: inline-block;
+	margin-top: 90%;
+}
+
+#a1, #linky, #a2,:link {
+	color: blue;
+}
+#a1, #linky, #a2,:visited {
+	color: pink;
+}
+
+@media only screen and (max-width: 500px) {
+    .success { 
+        background-image: initial; 
+    }
+}
+
+
