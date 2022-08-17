@@ -1,2 +1,1 @@
-# erikbonn.github.io
-initial solo challenge at DBC
+# initial solo challenge at DBC
